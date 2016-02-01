@@ -38,20 +38,15 @@ while len(X)<=1000:
 
 
 '''
-
 ax = fig.add_subplot(111, projection='3d')
 hist = np.histogram2d(X,Y, bins=40)
 #plt.colorbar()
 ax.bar3d()
 plt.show()
 exit()
-
-
 plt.hist(X,bins=100)
 plt.hist(Y,bins=100)
 plt.subplots_adjust(left=0.15)
-
-
 '''
 #3D-plot
 fig = plt.figure()
